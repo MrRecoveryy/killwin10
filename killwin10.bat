@@ -71,7 +71,7 @@ echo.
 echo    S. [*] Salir  
 echo.
 echo.
-SET /p var=@KillWin10# 
+SET /p var=root@KillWin10~# 
 echo.
 if "%var%" == "C" goto copia_regedit
 if "%var%" == "0" goto inicio
@@ -127,10 +127,10 @@ goto:inicio
         echo Copia de seguridad guardada con exito en: %SYSTEMDRIVE%\RegBackup
         echo.
         echo.
-        echo
         pause
         cls
         goto:inicio
+		cls
 
 :opcion1
     echo.
@@ -151,6 +151,7 @@ goto:inicio
         pause
         cls
         goto:inicio
+		cls
 
 :://////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -173,6 +174,7 @@ goto:inicio
         pause
         cls
         goto:inicio
+		cls
 
 :opcion3
     echo.
@@ -200,6 +202,7 @@ goto:inicio
         echo.
         pause
         goto:inicio
+		cls
 
 :opcion4
     echo.
@@ -241,6 +244,7 @@ goto:inicio
         pause
         cls
         goto:inicio
+		cls
 
 
 :opcion5
@@ -397,6 +401,7 @@ goto:inicio
         pause
         cls
         goto:inicio
+		cls
 
 
 :opcion6
@@ -429,6 +434,7 @@ goto:inicio
         start explorer.exe
         cls
         goto:inicio
+		cls
 
 :opcion7
     echo.
@@ -477,7 +483,7 @@ goto:inicio
         pause
         cls
         goto:inicio
-
+		cls
 :opcion8
     echo.
     echo.
@@ -517,6 +523,7 @@ goto:inicio
         pause
         cls
         goto:inicio
+		cls
 
 :opcion10
     echo.
@@ -582,6 +589,7 @@ goto:inicio
         pause
         cls
         goto:inicio
+		cls
 
 
 
